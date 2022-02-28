@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ShareButton from './ShareButton';
 import moment from 'moment';
 
 const PostDetail = ({ post }) => {
@@ -73,6 +73,7 @@ const PostDetail = ({ post }) => {
 
             return getContentFragment(index, children, typeObj, typeObj.type);
           })}
+           <ShareButton />
         </div>
       </div>
 
