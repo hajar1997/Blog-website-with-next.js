@@ -1,6 +1,7 @@
 import { PostCard, PostWidget } from '../components';
 import { getPosts } from '../services';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home({ posts }) {
   return (
