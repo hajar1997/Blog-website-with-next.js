@@ -53,7 +53,7 @@ useEffect(() => {
 },[]);
 
     return(
-        <nav className='container mx-auto px-10 mb-8 text-white  flex items-center py-4 h-20'>
+        <nav className='container mx-auto px-10 mb-8 text-white   flex items-center py-4 h-20'>
             <MobileNav open={open} setOpen={setOpen} />
             <div className='lg:w-3/12 flex items-center'>
              <a href='/'>
@@ -75,7 +75,7 @@ useEffect(() => {
                 <div className='hidden md:flex'>
                     {categories.map((category) => (
                     <NavLink  to={`/category/${category.slug}`}>
-                        <span className='text-lg'>
+                        <span className='text-lg font-semibold hover:text-blue-400 transition duration-700 ease-in-out'>
                             {category.name}
                         </span>
                     </NavLink>
