@@ -8,4 +8,5 @@ export { default as CommentsForm } from './CommentsForm';
 export { default as Comments } from './Comments';
 export { default as Loader } from './Loader';
 export { default as ShareButton } from './ShareButton';
+export { default as Footer } from './Footer';
 
