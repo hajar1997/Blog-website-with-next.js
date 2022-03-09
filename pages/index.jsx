@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           ))}
         </div>
         <div className="grid lg:grid-cols-1 lg:col-span-1">
-          <div className="relative top-8 hidden lg:sticky lg:block">
+          <div className="relative top-8 hidden  lg:sticky lg:block">
             <PostWidget />
           </div>
         </div>

@@ -44,11 +44,11 @@ const Footer = () => {
               </p>
             </Link>
           </div>
-          <div className="mt-5 text-white">
+          <div className="mt-5 text-white grid grid-cols-1 text-center lg:grid-cols-3  md:grid-cols-3 col-span-2">
             {categories.map((category) => (
               <Link key={category.slug} href={`/category/${category.slug}`}>
                 <ul>
-                  <li className="mb-2 inline-block cursor-pointer cursor-pointer pb-2 transition duration-300 ease-in-out hover:text-blue-400">
+                  <li className="mb-2 inline-block cursor-pointer cursor-pointer  pb-2 transition duration-300 ease-in-out hover:text-blue-400">
                     {category.name}
                   </li>
                 </ul>
@@ -60,11 +60,9 @@ const Footer = () => {
         <div className="text-center text-sm text-white p-4">
           <h3>
             Made by{' '}
-            <Link href="https://hajar-ibrahimli.netlify.app/">
               <span className=" cursor-pointer transition duration-300 ease-in-out hover:text-red-600">
                 Hajar Ibrahimli
               </span>
-            </Link>
           </h3>
         </div>
     </footer>

@@ -53,7 +53,7 @@ useEffect(() => {
 },[]);
 
     return(
-        <nav className='container mx-auto px-10 mb-8 text-white   flex items-center py-4 h-20'>
+        <nav className='container mx-auto px-10 mb-8 text-white  flex items-center py-4 h-20'>
             <MobileNav open={open} setOpen={setOpen} />
             <div className='lg:w-3/12 flex items-center'>
              <a href='/'>
@@ -66,16 +66,16 @@ useEffect(() => {
              </a>
             </div>
             <div className='w-9/12 flex justify-end items-center'>
-                <div className='z-50 flex relative w-8 h-6 flex-col justify-between cursor-pointer items-center md:hidden' onClick={() => setOpen(!open)}>
+                <div className='z-50 flex relative w-8 h-6 flex-col justify-between cursor-pointer items-center lg:hidden' onClick={() => setOpen(!open)}>
                     {/* hamburger button */}
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "bg-stone-900 rotate-45 translate-y-3.5" : ""}`} />                                                                    
                     <span className={`h-1 w-full bg-white rounded-lg transform transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />                                                                    
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "bg-stone-900 -rotate-45 -translate-y-4.5" : ""}`} />                                                                    
                 </div>
-                <div className='hidden md:flex'>
+                <div className='hidden lg:flex'>
                     {categories.map((category) => (
                     <NavLink  to={`/category/${category.slug}`}>
-                        <span className='text-lg font-semibold hover:text-blue-400 transition duration-700 ease-in-out'>
+                        <span className='text-base hover:text-blue-400 transition duration-700 ease-in-out'>
                             {category.name}
                         </span>
                     </NavLink>
