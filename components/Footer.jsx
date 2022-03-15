@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
         <div className="text-center text-sm text-white p-4">
           <h3>
-            Made by <span className=" cursor-pointer transition duration-300 ease-in-out hover:text-red-600">Hajar Ibrahimli</span>
+            Made by <span className=" cursor-pointer transition duration-300 ease-in-out hover:text-red-600">Hajar</span>
           </h3>
         </div>
     </footer>

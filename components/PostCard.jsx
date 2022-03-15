@@ -5,11 +5,11 @@ import Link from 'next/link';
 const PostCard = ({ post }) => {
   return (
     <div className='bg-white shadow-lg h-full'>
-        <div className='relative overflow-hidden shadow-md pb-80 mb-6'>
+        <div className='relative overflow-hidden shadow-md pb-64 mb-6'>
         <Link href={`/post/${post.slug}`}>
             <img src= {post.featuredImage.url}
                  alt= {post.title}
-                 className = "object-top absolute h-80 w-full object-cover shadow-lg hover:scale-105 transition duration-500 cursor-pointer"
+                 className = "object-top absolute h-64 w-full object-cover shadow-lg hover:scale-105 transition duration-500 cursor-pointer"
                  />
           </Link>
         </div>
@@ -32,7 +32,7 @@ const PostCard = ({ post }) => {
         <p className=' text-base md:text-lg px-5 text-gray-700  font-normal  mb-8'>{post.excerpt}</p>
         <div className='px-5'>
              <Link href={`/post/${post.slug}`}>
-                <span className='transition duration-500 transform hover:-translate-y-1 inline-block bg-red-600 text-md font-medium rounded-full text-white px-7 py-2 mb-5 cursor-pointer'>Read More</span>
+                <span className='transition duration-500 transform hover:-translate-y-1 inline-block bg-red-600 text-md font-medium rounded-full text-white px-7 py-2 mb-5 cursor-pointer'>Davamını oxu</span>
              </Link>
         </div>
     </div>
