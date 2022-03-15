@@ -8,6 +8,7 @@ export default function Home({ posts }) {
     <div className="container mx-auto mb-10 px-10">
       <Head>
         <title>Hər növ məqalələr</title>
+        <meta name="description" content="İstədiyiniz mövzuda maraqlı məlumatlar və məqalələr" />
       </Head>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <div className="grid lg:col-span-2 col-span-3 md:col-span-3 lg:grid-cols-2 grid-cols-1 gap-5">
