@@ -18,14 +18,17 @@ Preview the example live on [StackBlitz](http://stackblitz.com/):
 
 These steps above connect your website with database.If you want to create posts,categories and etc. follow steps below :
 1. Log into your graphcms account and click "Set up your schema"
+
 2.Create models,like shown in the image below
+
 ![models](https://user-images.githubusercontent.com/49823262/160410629-49ec603e-3fbf-4e8d-ab8e-b78fa39511ee.png)
+
 3.Follow steps in the image below for adding fields into those models :
    
-   1.![author](https://user-images.githubusercontent.com/49823262/160412906-7a9a4d2a-debb-40cd-8231-d447dca82533.png)
-   2.![category](https://user-images.githubusercontent.com/49823262/160412963-f228d7d0-87ea-43a6-ba60-061294cc416c.png)
-   3.![comment](https://user-images.githubusercontent.com/49823262/160413011-821f0de9-ef6a-4013-b1db-eb43ff9e8d99.png)
-   4.![Post](https://user-images.githubusercontent.com/49823262/160413057-7ae968f5-53db-4b32-bc49-14d467e13693.png)
+   ![author](https://user-images.githubusercontent.com/49823262/160412906-7a9a4d2a-debb-40cd-8231-d447dca82533.png)
+   ![category](https://user-images.githubusercontent.com/49823262/160412963-f228d7d0-87ea-43a6-ba60-061294cc416c.png)
+   ![comment](https://user-images.githubusercontent.com/49823262/160413011-821f0de9-ef6a-4013-b1db-eb43ff9e8d99.png)
+   ![Post](https://user-images.githubusercontent.com/49823262/160413057-7ae968f5-53db-4b32-bc49-14d467e13693.png)
 
 IF YOU STILL DON'T UNDERSTAND HOW TO CREATE GRAPHCMS ACCOUNT YOU CAN READ DOCUMENTATION OR WATCH YOUTUBE TUTORIAL.
 
